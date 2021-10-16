@@ -5,18 +5,18 @@ This project was created for the class "Cloud Computing and Services" in univers
 The main purpose of project was to create a container(swarm) of virtual machines and make them communicate with each other in different ways.
 
 It has 3 parts:
-1)
+1
 
 Network creation
 Automatic installation of a program for data collection
 onEvent - local / temporary data storage
 
-2)
+2
 
 Database replication
 onEvent data storage in the database
 
-3)
+3
 
 Create GUI or
 Create a Websocket connection to the database or basic services for instant data transfer
