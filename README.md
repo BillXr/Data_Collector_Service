@@ -25,12 +25,14 @@ Create GUI or
 
 Create a Websocket connection to the database or basic services for instant data transfer
 
+
 For this project i used different techniques such as:
 -Fluentd
 -Ansible
 -Swarmlab
 -MongoDB
 -NodeJS
+
 
 First of all fluentd.yml install fluentd tool in all hosts.
 
