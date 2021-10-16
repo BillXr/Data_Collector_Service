@@ -25,7 +25,7 @@ Create GUI or
 
 Create a Websocket connection to the database or basic services for instant data transfer
 
-
+-----------------------------------------------------------
 For this project i used different techniques such as:
 -Fluentd
 -Ansible
@@ -33,7 +33,7 @@ For this project i used different techniques such as:
 -MongoDB
 -NodeJS
 
-
+----------------------------------------------------------
 First of all fluentd.yml install fluentd tool in all hosts.
 
 After that fluentd.yml.sh searches for ip addresses and when he finds them,runs ansible script in all swarm.
