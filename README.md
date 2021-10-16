@@ -8,17 +8,21 @@ It has 3 parts:
 1
 
 Network creation
+
 Automatic installation of a program for data collection
+
 onEvent - local / temporary data storage
 
 2
 
 Database replication
+
 onEvent data storage in the database
 
 3
 
 Create GUI or
+
 Create a Websocket connection to the database or basic services for instant data transfer
 
 For this project i used different techniques such as:
