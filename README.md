@@ -6,8 +6,8 @@ The main purpose of project was to create a container(swarm) of virtual machines
 
 3 steps:
 
-1)
 
+1)
 Network creation
 
 Automatic installation of a program for data collection
@@ -15,13 +15,11 @@ Automatic installation of a program for data collection
 onEvent - local / temporary data storage
 
 2)
-
 Database replication
 
 onEvent data storage in the database
 
 3)
-
 Create GUI or
 
 Create a Websocket connection to the database or basic services for instant data transfer
