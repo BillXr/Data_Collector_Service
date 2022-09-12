@@ -5,6 +5,7 @@ This project was created for the class "Cloud Computing and Services" in univers
 The main purpose of project was to create a container(swarm) of virtual machines and make them communicate with each other in different ways.
 
 3 steps:
+
 1)
 
 Network creation
