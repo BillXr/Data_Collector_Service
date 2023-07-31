@@ -1,38 +1,29 @@
 # Data-Collector-Service
-Collect data from different hosts in the cloud
+Collect data from different hosts in the cloud.
 
 This project was created for the class "Cloud Computing and Services" in university.
 The main purpose of project was to create a container(swarm) of virtual machines and make them communicate with each other in different ways.
 
-3 steps:
+## Steps
 
++ Network creation
 
-1
+  * Automatic installation of a program for data collection
 
-Network creation
-
-Automatic installation of a program for data collection
-
-onEvent - local / temporary data storage
+  * onEvent - local / temporary data storage
 
 ----------------------------------------------------------
++ Database replication
 
-2
-
-Database replication
-
-onEvent data storage in the database
+  * onEvent data storage in the database
 
 ----------------------------------------------------------
++ Create GUI or
 
-3
-
-Create GUI or
-
-Create a Websocket connection to the database or basic services for instant data transfer
+  * Create a Websocket connection to the database or basic services for instant data transfer
 
 -----------------------------------------------------------
-For this project i used:
+Tech stack used:
 
 -Fluentd
 
@@ -45,14 +36,16 @@ For this project i used:
 -NodeJS
 
 ----------------------------------------------------------
-First of all fluentd.yml install fluentd tool in all hosts.
+## Execution
 
-After that fluentd.yml.sh searches for ip addresses and when he finds them,runs ansible script in all swarm.
++ First of all fluentd.yml install fluentd tool in all hosts.
 
-Additionally fluentd-config-update file write all the logs we have in database.
++ After that fluentd.yml.sh searches for ip addresses and when he finds them,runs ansible script in all swarm.
 
-In addition fluentd.-config-update.yml.sh refreshes all ip addresses we have found,and runs ansible script in swarm.
++ Additionally fluentd-config-update file write all the logs we have in database.
 
-Finally we write down all ip addresses of swarm.
++ In addition fluentd.-config-update.yml.sh refreshes all ip addresses we have found,and runs ansible script in swarm.
+
++ Finally we write down all ip addresses of swarm.
 
 
