@@ -23,17 +23,17 @@ The main purpose of project was to create a container(swarm) of virtual machines
   * Create a Websocket connection to the database or basic services for instant data transfer
 
 -----------------------------------------------------------
-Tech stack used:
+## Stack
 
--Fluentd
++ Fluentd
 
--Ansible
++ Ansible
 
--Swarmlab
++ Swarmlab
 
--MongoDB
++ MongoDB
 
--NodeJS
++ NodeJS
 
 ----------------------------------------------------------
 ## Execution
